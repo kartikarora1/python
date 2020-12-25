@@ -1,5 +1,3 @@
-# Python program to check if the number is an Armstrong number or not
-
 num = int(input("Enter a number: "))
 
 sum = 0
