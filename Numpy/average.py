@@ -1,0 +1,11 @@
+import numpy as np
+x = np.random.randn(1000)
+print("Average:")
+mean = x.mean()
+print(mean)
+print("Standard deviation:")
+std = x.std()
+print(std)
+print("Variance:")
+var = x.var()
+print(var)
