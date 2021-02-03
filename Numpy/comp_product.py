@@ -1,0 +1,10 @@
+import numpy as np
+x = np.array([1+2j,3+4j])
+print("array 1")
+print(x)
+y = np.array([5+6j,7+8j])
+print("array 2")
+print(y)
+z = np.vdot(x, y)
+print("Product ")
+print(z)
