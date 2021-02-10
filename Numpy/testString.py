@@ -1,0 +1,10 @@
+import numpy as np
+x = np.array(['Python', 'PHP', 'JS', 'Examples', 'html5', '5'] )
+print("\n Array:")
+print(x)
+r1 = np.char.isdigit(x)
+r2 = np.char.islower(x)
+r3 = np.char.isupper(x)
+print("Digits =", r1)
+print("Lower cases  =", r2)
+print("Upper cases  =", r3)
